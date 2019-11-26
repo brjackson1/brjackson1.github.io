@@ -1,0 +1,130 @@
+/*colors helped from color safe */
+.header {
+  background-color: #e7903c;
+  padding: 10px;
+  margin:0px;
+  text-align: center;
+  border-radius: 15px;
+  color: black;
+  opacity: 0.7;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.box1{
+ float: right; 
+  background-color: grey;
+  margin: 0px;
+  opacity: 0.5; 
+}
+#navbar {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "sans-serif";
+  font-size: 14px;
+  font-weight: bold;
+  width: auto;
+}
+#navbar ul {
+  background: darkred;
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+}
+#navbar li {
+  float: left;
+  padding: 0px 0px 0px 15px;
+}
+#navbar li a {
+  color: white;
+  display: block;
+  font-weight: normal;
+  line-height: 50px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+#navbar li a:hover {
+  background: #cc6600;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#navbar ul li:hover a {
+  background: #cc6600;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#navbar li ul {
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 200px;
+  z-index: 200;
+}
+#navbar li:hover ul {
+  display: block;
+}
+#navbar li li {
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  background: #ff9933;
+
+}
+#navbar li:hover li a {
+  background: none;
+}
+#navbar li ul a {
+  display: block;
+  height: 50px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+#navbar li ul a:hover,
+#navbar li ul li:hover a {
+  border: 0px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #cc6600;
+ 
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.left {
+  width: 25%;
+  background: grey;
+  opacity: 0.5;
+  height: 770px;
+  border-radius: 15px;
+}
+
+.right {
+  width: 75%;
+  border-radius: 15px;
+   background: grey;
+  opacity: 0.7;
+  height: 770px;
+  border-radius: 15px;
+}
+
