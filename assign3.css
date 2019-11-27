@@ -51,12 +51,12 @@ body{
   text-decoration: none;
 }
 #navbar li a:hover {
-  background: #94350f;
+  background: #9c3005;
   color: #FFFFFF;
   text-decoration: none;
 }
 #navbar ul li:hover a {
-  background: #94350f;
+  background: #9c3005;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -79,7 +79,7 @@ body{
   margin: 0px;
   padding: 0px;
   width: 200px;
-  background: #94350f;
+  background: #9c3005;
 
 }
 #navbar li:hover li a {
@@ -99,7 +99,7 @@ body{
   border: 0px;
   color: #FFFFFF;
   text-decoration: none;
-  background: #94350f;
+  background: #9c3005;
  
 }
 * {
@@ -115,15 +115,15 @@ body{
   width: 25%;
   background: black;
   height: 770px;
-  opacity: 0.8;
+  opacity: 0.75;
   border-radius: 15px;
 }
 
 .right {
   width: 75%;
   border-radius: 15px;
-  background: grey;
-  opacity: 0.7;
+  background:rgb(179, 173, 173);
+  
   height: 770px;
   border-radius: 15px;
 }
@@ -139,5 +139,9 @@ h2 {
 }
 
 p {
-  color: grey;
+  color:lightgrey;
+}
+
+#fire1 {
+
 }
