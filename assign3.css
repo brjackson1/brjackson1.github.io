@@ -1,12 +1,12 @@
 /*colors helped from color safe */
 .header {
-  background-color: #e7903c;
+  background-color: black;
   padding: 10px;
   margin:0px;
   text-align: center;
   border-radius: 15px;
   color: black;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 body{
 	padding: 0px;
@@ -14,7 +14,7 @@ body{
 }
 .box1{
  float: right; 
-  background-color: grey;
+  background-color:grey;
   margin: 0px;
   opacity: 0.5; 
 }
@@ -29,7 +29,7 @@ body{
   width: auto;
 }
 #navbar ul {
-  background: darkred;
+  background: rgb(102, 10, 10);
   height: 50px;
   list-style: none;
   margin: 0;
@@ -51,12 +51,12 @@ body{
   text-decoration: none;
 }
 #navbar li a:hover {
-  background: #cc6600;
+  background: #94350f;
   color: #FFFFFF;
   text-decoration: none;
 }
 #navbar ul li:hover a {
-  background: #cc6600;
+  background: #94350f;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -79,7 +79,7 @@ body{
   margin: 0px;
   padding: 0px;
   width: 200px;
-  background: #ff9933;
+  background: #94350f;
 
 }
 #navbar li:hover li a {
@@ -99,7 +99,7 @@ body{
   border: 0px;
   color: #FFFFFF;
   text-decoration: none;
-  background: #cc6600;
+  background: #94350f;
  
 }
 * {
@@ -113,18 +113,31 @@ body{
 
 .left {
   width: 25%;
-  background: grey;
-  opacity: 0.5;
+  background: black;
   height: 770px;
+  opacity: 0.8;
   border-radius: 15px;
 }
 
 .right {
   width: 75%;
   border-radius: 15px;
-   background: grey;
+  background: grey;
   opacity: 0.7;
   height: 770px;
   border-radius: 15px;
 }
 
+h1 {
+  color: rgb(145, 30, 30);
+  font: arial;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: grey;
+}
