@@ -33,7 +33,6 @@ body{
   list-style: none;
   margin: 0;
   padding: 0;
-  border-radius: 5px;
 }
 #navbar li {
   float: left;
@@ -141,6 +140,3 @@ p {
   color:lightgrey;
 }
 
-#fire1 {
-
-}
