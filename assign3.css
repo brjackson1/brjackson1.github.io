@@ -1,5 +1,9 @@
 html,
-header {
+header .header-content {
+    position: relative;
+    width: 90%;
+    padding: 100px 15px 70px;
+    text-align: center;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -11,13 +15,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-header .header-content {
-    position: relative;
-    width: 90%;
-    padding: 100px 15px 70px;
-    text-align: center;
 }
 
 header .header-content .header-content-inner h1 {
@@ -78,7 +75,7 @@ header .header-content .header-content-inner p {
 }
 
 /*colors helped from color safe */
-/*.header2 {
+.header2 {
   background-color: black;
   padding: 10px;
   margin:0px; 
@@ -86,7 +83,6 @@ header .header-content .header-content-inner p {
   color: black;
   opacity: 0.9; 
 }
-*/
 body{
 	padding: 0px;
   margin: 0px;
