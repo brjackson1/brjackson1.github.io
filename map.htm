@@ -3,7 +3,7 @@
 <html> 
 <head> 
  
-  <title>Fire Locations</title> 
+  <title>Map of Fire Locations</title> 
   <script src="http://maps.google.com/maps/api/js?key=AIzaSyCksreCwUldUu0OY3pnCtTJ33gGLuJqv78&sensor=false" 
           type="text/javascript"></script>
 </head> 
@@ -46,10 +46,11 @@ google.maps.event.addListener(marker,'click',function() {
   var pos = map.getZoom();
   map.setZoom(13);
   map.setCenter(marker.getPosition());
-  window.setTimeout(function() {map.setZoom(pos);},5000);
+  window.setTimeout(function() {map.setZoom(pos);},10000);
 });
   }
 
   </script>
 </body>
 </html>
+
