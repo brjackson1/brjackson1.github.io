@@ -16,7 +16,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url("wildfires.jpg");
+    background-image: url("images/wildfires.jpg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -89,8 +89,4 @@ header .header-content .header-content-inner p {
 .btn-lg {
     padding: 15px 30px;
 	text-decoration: none;
-}
-
-
-
-
+}}
