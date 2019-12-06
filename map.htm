@@ -42,13 +42,13 @@
           infowindow.open(map, marker);
         }
       })(marker, i));
-google.maps.event.addListener(marker,'click',function() {
-  var pos = map.getZoom();
-  map.setZoom(13);
-  map.setCenter(marker.getPosition());
-  window.setTimeout(function() {map.setZoom(pos);},10000);
-});
-  }
+    google.maps.event.addListener(marker,'click',function() {
+    var pos = map.getZoom();
+    map.setZoom(13);
+    map.setCenter(marker.getPosition());
+    window.setTimeout(function() {map.setZoom(pos);},10000);
+    });
+    }
 
   </script>
 </body>
