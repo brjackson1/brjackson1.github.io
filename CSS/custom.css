@@ -4,12 +4,6 @@ body {
     height: 100%;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	margin: 0;
-	background-image: url ('/images/wildfires.jpg');
-	background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 p {
     font-size: 16px;
@@ -22,6 +16,12 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
+    background-image: url("/images/wildfires.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .header-content {
@@ -44,10 +44,10 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
-	margin-right: auto;
-    margin-left: auto;
-    max-width: 80%;
-    font-size: 18px;
+	  margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
 }
 
 @media(min-width:768px) {
