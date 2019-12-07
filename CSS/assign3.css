@@ -147,19 +147,19 @@ p {
   line-height: 1.5;
 }
 
-p1 {
+.p1 {
   color:lightgrey;
   font-size: 16px;
   line-height: 1.5;
 }
 
-p2 {
+.p2 {
   color:lightgrey;
   font-size: 16px;
   line-height: 1.5;
 }
 
-header1 {
+.header1 {
   position: absolute;
   text-align: center;
   background-color: black;   
