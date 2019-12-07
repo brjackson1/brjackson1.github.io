@@ -111,7 +111,7 @@ body{
 .column {
   float: left;
   padding: 10px;
-  height: 100%; /*300px*/
+  height: auto; /*300px*/
 }
 
 .left {
