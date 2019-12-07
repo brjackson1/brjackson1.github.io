@@ -117,7 +117,7 @@ body{
 .left {
   width: 25%;
   background: black;
-  height: 770px;
+  height: 100%;
   opacity: 0.75;
   border-radius: 15px;
 }
