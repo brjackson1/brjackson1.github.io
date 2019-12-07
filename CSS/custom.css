@@ -16,7 +16,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-	background-image: ("brjackson1.github.io/images/wildfires.jpg");
+	background-image: url ("brjackson1.github.io/images/wildfires.jpg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
