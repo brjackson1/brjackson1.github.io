@@ -44,10 +44,10 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
-	  margin-right: auto;
-        margin-left: auto;
-        max-width: 80%;
-        font-size: 18px;
+	margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+    font-size: 18px;
 }
 
 @media(min-width:768px) {
