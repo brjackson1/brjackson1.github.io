@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="assign3.css">
+  
+   <title>California Fires</title>
+     <style>
+      #map {
+        height: 400px;  
+        width: 100%;  
+       }
+    </style>
+</head>
+<body>
+<div class="header2">
+  <h1><b>CAWF</b></h1>
+  <h2>California Wildfires</h2>
+</div>
+<!--Ramon Boyce-Navbar-->
+<div id='navbar'>
+<ul>
+   <li class='active'><a href='html/homepage.html'><span>Home</span></a></li>
+   <li class='has-sub'><a href='#'><span>Fires</span></a>
+      <ul>
+         <li><a href='html/index.html'><span>Kincade</span></a></li>
+         <li><a href='html/Page2.html'><span>Maria</span></a></li>
+         <li><a href='html/Page3.html'><span>Mendocino Complex</span></a></li>
+         <li><a href="html/FactsLinks.html"><span>Facts'n'Stats</span></a></li>
+      </ul>
+      <li class='active'><a href='html/map.html'><span>Maps</span></a>
+   </li>
+</ul>
+</div>
+ <head>
+  </head>
+  <body>
+  <!--RamonBoyce-Map--->
+    <h3>Map of California wildfires</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Fires
+  var kincade = {lat: 38.4158053, lng: -123.399172,};
+  var maria ={lat: 34.3555374, lng: -119.1022751,};
+  var mendecino ={lat: 39.3114915, lng: -123.896175,};
+  // The map, centered at Fires
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 6, center: kincade});
+  // The marker, positioned at Fires
+  var marker = new google.maps.Marker({position: kincade, map: map});
+  var marker2 = new google.maps.Marker({position: maria, map: map});
+  var marker3 = new google.maps.Marker({position: mendecino, map: map});
+  
+}
+    </script>
+    <!-- Google Api owned by Ramon-->
+	<!--- Help from Google Api website-->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCksreCwUldUu0OY3pnCtTJ33gGLuJqv78&callback=initMap">
+    </script>
+  </body>
