@@ -126,8 +126,7 @@ body{
   width: 75%;
   border-radius: 15px;
   background:rgb(179, 173, 173);
-  
-  height: 770px;
+  height: 100%; /*770px*/
   border-radius: 15px;
 }
 
