@@ -4,7 +4,7 @@ body {
     height: 100%;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	margin: 0;
-	background-image: url ("/images/wildfires.jpg");
+	background-image: ("/images/wildfires.jpg");
 }
 p {
     font-size: 16px;
