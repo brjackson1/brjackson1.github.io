@@ -5,7 +5,7 @@ body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	margin: 0;
 	background-image: url ('/images/wildfires.jpg');
-	 background-position: center;
+	background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
