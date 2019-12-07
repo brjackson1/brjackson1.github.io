@@ -70,7 +70,7 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 1000px;
     }
-
+}
 
 .btn-primary {
     border-color: yellowgreen;
@@ -89,4 +89,4 @@ header .header-content .header-content-inner p {
 .btn-lg {
     padding: 15px 30px;
 	text-decoration: none;
-}}
+}
