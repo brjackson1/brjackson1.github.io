@@ -5,6 +5,11 @@ body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 	margin: 0;
 	background-image: ("/images/wildfires.jpg");
+	 background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 p {
     font-size: 16px;
@@ -17,11 +22,6 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 header .header-content {
